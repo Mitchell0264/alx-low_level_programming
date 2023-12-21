@@ -3,7 +3,7 @@
  * main - A program that prints _putchar, followed by a new line.
  * Return: 0 (success).
  */
-int main()
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
