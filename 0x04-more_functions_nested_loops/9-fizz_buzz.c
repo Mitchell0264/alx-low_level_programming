@@ -3,28 +3,31 @@
  * main - Entry point of the program
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	for (int i = 1; i <= 100; i++)
+	int num;
+
+	for (num = 1; num <= 100; num++)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
+		if (num % 3 == 0 && num % 5 == 0)
 		{
 			printf("FizzBuzz ");
 		}
-		else if (i % 3 == 0)
+		else if (num % 3 == 0)
 		{
 			printf("Fizz ");
-		{
-		else if (i % 5 == 0)
+		}
+		else if (num % 5 == 0)
 		{
 			printf("Buzz ");
 		}
 		else
 		{
-			printf("%d ", i);
+			printf("%d ", num);
 		}
 	}
-	printf("\n");
 
+	printf("\n");
 	return (0);
 }
